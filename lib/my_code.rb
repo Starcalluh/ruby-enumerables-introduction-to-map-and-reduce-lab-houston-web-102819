@@ -50,10 +50,10 @@ end
 
 
 def reduce_to_all_true(array)
-  counte  = 0
-  while counter < array.size do
-    return false if array
-    counter += 1
+  i = 0
+  while i < array.length do
+    return false if !array[i]
+    i += 1
 end
 return true
 end
