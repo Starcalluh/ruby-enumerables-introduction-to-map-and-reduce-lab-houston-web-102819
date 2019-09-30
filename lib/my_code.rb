@@ -60,10 +60,10 @@ end
 
 
 def reduce_to_any_true(array)
-  counter = 0
-  while counter < array.size do
-    return true if found truthy value
-    counter += 1
+  i = 0
+  while i < array.length do
+    return true if array[i]
+    i += 1
 end
 return false
 end
