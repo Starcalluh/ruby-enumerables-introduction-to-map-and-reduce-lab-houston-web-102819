@@ -13,7 +13,7 @@ end
    counter = i
    while counter < array.size do 
 
-     counter =+ i
+     counter += i
      
 end
 new
