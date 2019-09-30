@@ -12,7 +12,7 @@ end
    new = []
    counter = i
    while counter < array.size do 
-     new.push(array)
+     new.push(array[i])
      counter = i
      
 end
