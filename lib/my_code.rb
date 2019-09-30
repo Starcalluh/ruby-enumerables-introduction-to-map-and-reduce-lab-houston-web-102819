@@ -10,10 +10,10 @@ new
 end
  def map_to_no_change(array)
    new = []
-   counter = i
+   counter = 0
    while counter < array.size do 
 
-     counter += i
+     counter += 1
      
 end
 new
