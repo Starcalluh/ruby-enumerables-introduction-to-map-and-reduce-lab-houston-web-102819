@@ -12,7 +12,7 @@ end
    new = []
    counter = 0
    while counter < array.size do 
-
+puts new
      counter += 1
      
 end
