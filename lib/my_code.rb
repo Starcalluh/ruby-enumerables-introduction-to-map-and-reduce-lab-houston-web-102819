@@ -5,8 +5,8 @@ def map_to_negativize(array)
   while i < array.size do
   new.push(array[i] * -1) 
   i += 1
-end
-new
+  end
+  new
 end
 
  def map_to_no_change(array)
@@ -15,9 +15,8 @@ end
    while i < array.length do 
      new.push(array[i])
      i += 1
-     
-end
-new
+    end
+  new
 end
 
 def map_to_double(array)
