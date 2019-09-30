@@ -8,12 +8,12 @@ def map_to_negativize(array)
 end
 new
 end
- def map_to_no_change
+ def map_to_no_change(array)
    new = []
    counter = i
    while counter < array.size do 
-     new.push(array[i])
-     counter = i
+
+     counter =+ i
      
 end
 new
