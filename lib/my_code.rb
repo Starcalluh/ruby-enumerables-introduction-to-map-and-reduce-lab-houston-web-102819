@@ -9,14 +9,12 @@ end
 new
 end
  def map_to_no_change(array)
-   new = []
+   
    counter = 0
    while counter < array.size do 
-puts new
      counter += 1
      
 end
-new
 end
 def map_to_double(array)
   new = []
