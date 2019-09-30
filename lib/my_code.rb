@@ -8,16 +8,18 @@ def map_to_negativize(array)
 end
 new
 end
+
  def map_to_no_change(array)
    new = []
-   counter = 0
-   while counter < array.size do 
+   i = 0
+   while i < array.length do 
      
-     counter += 1
+     i += 1
      
 end
 new
 end
+
 def map_to_double(array)
   new = []
   i = 0
